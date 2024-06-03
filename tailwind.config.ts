@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        fade: 'fadeIn 2s ease-in-out',
+        transition:'transition 2s ease-in-out',
+      },
+      keyframes: {
+				fadeIn: {
+					from: { opacity: '0' },
+					to: { opacity: '1' },
+				},
+        transition: {
+          from: {transform: 'translateY(2rem)', opacity: '0'},
+          to: {transform: 'translateY(0rem)', opacity:'1'},
+        }
+			},
     },
     colors: {
       'white': '#ffff',

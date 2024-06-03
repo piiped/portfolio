@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 export default function Navbar() {
   return (
-    <div className="relative">
+    <div className="relative z-50">
       <div className="w-full fixed h-20 top-0 ">
         <div className="container mx-auto px-5 h-full">
           <div className="flex justify-between items-center h-full">
@@ -16,7 +16,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="#about">
                   <p className="text-primary hover:text-secondary hover:border-b-2 transition duration-700 ease-in-out">About Me</p>
                 </Link>
               </li>

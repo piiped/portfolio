@@ -3,7 +3,7 @@ import React from "react"
 export default function Cover() {
     return(
         <>
-            <main className="mx-auto h-full flex flex-col justify-center items-center">
+            <main className="z-10 mx-auto h-full flex flex-col justify-center items-center animate-transition transition-all duration-200">
                 <div>
                     <p className="text-primary flex justify-center font-normal text-[130px] mt-[160px] ml-[-200px]">WELCOME TO MY</p>
                 </div>
