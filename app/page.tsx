@@ -3,6 +3,8 @@ import Navbar from "./components/navigation/index"
 import Cover from "./components/pages/cover"
 import Section1 from "./components/pages/section1";
 import About from "./components/pages/about";
+import Footer from "./components/pages/footer";
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <Cover/>
       <Section1/>
       <About/>
+      <Footer/>
     </div>
   );
 }
