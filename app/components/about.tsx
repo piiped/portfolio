@@ -21,7 +21,7 @@ export default function About() {
           <p className="text-white font-normal lg:text-[20px] whitespace-normal sm:text-[10px] md:text-[15px]">
             Hello, My name is Papitchaya Kadang My Nickname is Aommie. I am 22
             years old. Now I am recent graduate in Applied Computer
-            Science-Multimedia at King Mongkut's University of Technology
+            Science-Multimedia at King Mongkut&apos;s University of Technology
             Thonburi. I am interested in Front-end Developer. <br />
           </p>
           <p className="mt-[20px] text-white font-normal lg:text-[20px] whitespace-normal sm:text-[10px] md:text-[15px]">
