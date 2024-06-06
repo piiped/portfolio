@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Navbar from "./components/navigation/index"
-import Cover from "./components/pages/cover"
-import Section1 from "./components/pages/section1";
-import About from "./components/pages/about";
-import Footer from "./components/pages/footer";
+import Cover from "./components/cover"
+import Project from "./components/section";
+import About from "./components/about";
+import Footer from "./components/footer";
+import React from "react";
 
 
 export default function Home() {
@@ -11,8 +11,8 @@ export default function Home() {
     <div className="w-full h-auto font-prompt scroll-smooth">
       <Navbar/>
       <Cover/>
-      <Section1/>
       <About/>
+      <Project/>
       <Footer/>
     </div>
   );

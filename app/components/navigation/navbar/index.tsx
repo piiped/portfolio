@@ -11,20 +11,19 @@ export default function Navbar() {
             <Logo />
             <ul className="hidden md:flex gap-x-6 text-[30px] font-extralight">
               <li>
-                <Link href="#projects">
-                  <p className=" text-primary hover:text-secondary hover:border-b-2 transition duration-700 ease-in-out">
-                    Projects
-                  </p>
-                </Link>
-              </li>
-              <li>
                 <Link href="#about">
                   <p className="text-primary hover:text-secondary hover:border-b-2 transition duration-700 ease-in-out">
                     About Me
                   </p>
                 </Link>
               </li>
-            
+              <li>
+                <Link href="#projects">
+                  <p className=" text-primary hover:text-secondary hover:border-b-2 transition duration-700 ease-in-out">
+                    Projects
+                  </p>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

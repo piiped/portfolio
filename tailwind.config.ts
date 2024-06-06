@@ -27,6 +27,12 @@ const config: Config = {
           to: {transform: 'translateY(0rem)', opacity:'1'},
         }
 			},
+      screens: {
+        'sm': '375px', 
+        'md': '768px', 
+        'lg': '1366px',
+        'xl': '1920px'
+      },
     },
     colors: {
       'white': '#ffff',
