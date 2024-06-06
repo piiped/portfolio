@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <div className="font-prompt bg-white p-0">
       <Link href="/">
-        <Image src={"/logo.png"} alt="logo" height={40} width={200} />
+        <img src="/logo.png" alt="logo" className="lg:w-[160px] h-auto md:w-[100px] sm:w-[80px]" />
       </Link>
     </div>
   );
